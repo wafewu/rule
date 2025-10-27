@@ -7,11 +7,6 @@
       {"tag": "fakeip", "type": "fakeip", "inet4_range": "198.18.0.0/15", "inet6_range": "fc00::/18"}
     ],
     "rules": [
-      {"source_ip_cidr": ["192.168.88.64/26"], "outbound": "🎯 全球直连"},
-      {"source_ip_cidr": ["192.168.88.128/26"], "outbound": "🎯 全球直连"},
-      {"source_ip_cidr": ["192.168.88.192/27"], "outbound": "🎯 全球直连"},
-      {"source_ip_cidr": ["192.168.88.224/28"], "outbound": "🎯 全球直连"},
-      {"source_ip_cidr": ["192.168.88.240/28"], "outbound": "🎯 全球直连"}
       {"clash_mode": "direct", "server": "local"},
       {"clash_mode": "global", "server": "fakeip"},
       {"query_type": "HTTPS", "action": "reject"},
